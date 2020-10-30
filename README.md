@@ -61,10 +61,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. The core features of Node.js and Express and why they are useful.
+
+node.js gives the ability to use javascript directly on the server, it asynchronous and singlethreade so it takes awayt he complexity of multiple stings,
+
+express gives direct somple access to simplified routing and middleaware makinfg the http method of node much smpler
+
 1. Understand and explain the use of Middleware?
+express middleware allows direct access to the rq, res and next objects so they can be accessed direcly and simply with less code
+
+
 1. The basic principles of the REST architectural style.
+the main concept is the seperation of concerns, its stateless so the informtion is always the same info needed to get to the fdesired task
 1. Understand and explain the use of Express Routers.
+express routers extent the routes capabilities to handle errors and validation making it simpler and cleaner 
+
 1. Describe tooling used to manually test the correctness of an API.
+set up debugger to step your way throught code and find errors via breakpoints, also httpie to check endpoints. as well as postman to verify endpoints and accuracy of the api
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -72,12 +84,12 @@ You are expected to be able to answer questions in these areas. Your responses c
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project
-- [ ] Add your team lead as collaborator on Github
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!)
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
-- [ ] Push commits: git push origin `<firstName-lastName>`
+- [ x] Create a forked copy of this project
+- [x] Add your team lead as collaborator on Github
+- [x] Clone your OWN version of the repository (Not Lambda's by mistake!)
+- [x] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [x] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
+- [x] Push commits: git push origin `<firstName-lastName>`
 
 ### Task 2: Project Requirements
 
@@ -85,9 +97,9 @@ Your finished project must include all of the following requirements:
 
 #### NPM Scripts
 
-- [ ] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Use _nodemon_ as a development time dependency only that is not deployed to production.
-- [ ] An _npm script_ named _"start"_ that uses `node` to run the API server.
+- [x] An _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [x] Use _nodemon_ as a development time dependency only that is not deployed to production.
+- [x] An _npm script_ named _"start"_ that uses `node` to run the API server.
 
 #### Build an API
 
